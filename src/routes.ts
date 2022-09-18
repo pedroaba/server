@@ -1,4 +1,5 @@
 import { Request, Response, Router } from "express";
+import userRoutes from "./database/controllers/User/userRoutes";
 
 const routes = Router();
 
